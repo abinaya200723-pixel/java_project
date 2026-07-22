@@ -1,32 +1,29 @@
+package day20;
 
-package day19;
+import java.util.HashSet;
 
-
-
-import java.util.Arrays;
-
-public class problem4 {
+public class problem1 {
     public static void main(String[] args) {
 
-        int[] nums = {1,2,3,4};
+        String s = "abcabcbb";
 
-        int n = nums.length;
+        HashSet<Character> set = new HashSet<>();
 
-        int[] ans = new int[n];
+        int left = 0;
+        int max = 0;
 
-        ans[0] = 1;
+        for(int right = 0; right < s.length(); right++) {
 
-        for(int i=1;i<n;i++){
-            ans[i] = ans[i-1] * nums[i-1];
+            while(set.contains(s.charAt(right))) {
+                set.remove(s.charAt(left));
+                left++;
+            }
+
+            set.add(s.charAt(right));
+
+            max = Math.max(max, right - left + 1);
         }
 
-        int right = 1;
-
-        for(int i=n-1;i>=0;i--){
-            ans[i] = ans[i] * right;
-            right = right * nums[i];
-        }
-
-        System.out.println(Arrays.toString(ans));
+        System.out.println(max);
     }
 }

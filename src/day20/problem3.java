@@ -1,32 +1,32 @@
+package day20;
 
-package day19;
+public class problem3 {
 
-
-
-import java.util.Arrays;
-
-public class problem4 {
     public static void main(String[] args) {
 
-        int[] nums = {1,2,3,4};
+        int[] nums = {2,3,1,2,4,3};
+        int target = 7;
 
-        int n = nums.length;
+        int left = 0;
+        int sum = 0;
+        int min = Integer.MAX_VALUE;
 
-        int[] ans = new int[n];
+        for(int right = 0; right < nums.length; right++) {
 
-        ans[0] = 1;
+            sum += nums[right];
 
-        for(int i=1;i<n;i++){
-            ans[i] = ans[i-1] * nums[i-1];
+            while(sum >= target) {
+
+                min = Math.min(min, right - left + 1);
+
+                sum -= nums[left];
+                left++;
+            }
         }
 
-        int right = 1;
-
-        for(int i=n-1;i>=0;i--){
-            ans[i] = ans[i] * right;
-            right = right * nums[i];
-        }
-
-        System.out.println(Arrays.toString(ans));
+        if(min == Integer.MAX_VALUE)
+            System.out.println(0);
+        else
+            System.out.println(min);
     }
 }

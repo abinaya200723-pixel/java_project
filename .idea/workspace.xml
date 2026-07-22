@@ -5,30 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bbb6260-d9de-4aff-a44c-727827516e7f" name="Changes" comment="new">
-      <change afterPath="$PROJECT_DIR$/src/day19/problem1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day19/problem2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day19/problem3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day19/problem4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day20/problem1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day20/problem2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day20/problem3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day21/problem1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day21/problem2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day21/problem3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day21/problem4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day22/problem1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day22/problem2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day22/problem3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day22/problem4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day23/problem1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day23/problem2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day23/problem3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day23/problem4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day24/problem1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day24/problem2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day24/problem3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day24/problem4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day20/problem1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day20/problem1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day20/problem2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day20/problem2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day20/problem3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day20/problem3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784710743670</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="new">
+      <option name="closed" value="true" />
+      <created>1784711871300</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1784711871300</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

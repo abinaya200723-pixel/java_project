@@ -1,31 +1,26 @@
-package day19;
+package day20;
 
+public class problem2 {
 
-
-import java.util.Arrays;
-
-public class problem4 {
     public static void main(String[] args) {
 
-        int[] nums = {1,2,3,4};
+        int[] nums = {1,12,-5,-6,50,3};
+        int k = 4;
 
-        int n = nums.length;
+        int sum = 0;
 
-        int[] ans = new int[n];
+        for(int i = 0; i < k; i++)
+            sum += nums[i];
 
-        ans[0] = 1;
+        int maxSum = sum;
 
-        for(int i=1;i<n;i++){
-            ans[i] = ans[i-1] * nums[i-1];
+        for(int i = k; i < nums.length; i++) {
+            sum += nums[i] - nums[i-k];
+            maxSum = Math.max(maxSum, sum);
         }
 
-        int right = 1;
+        double result = (double) maxSum / k;
 
-        for(int i=n-1;i>=0;i--){
-            ans[i] = ans[i] * right;
-            right = right * nums[i];
-        }
-
-        System.out.println(Arrays.toString(ans));
+        System.out.println(result);
     }
 }
